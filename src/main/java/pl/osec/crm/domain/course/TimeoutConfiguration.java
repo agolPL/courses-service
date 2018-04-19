@@ -11,7 +11,7 @@ import static java.lang.Thread.sleep;
 @Configuration
 class TimeoutConfiguration {
 
-    private static final int WAITING_TIME_MS = 1000 * 60 * 3;
+    private static final int WAITING_TIME_MS = 3000;
 
     @PostConstruct
     void waitingBeforeStart() throws InterruptedException {
