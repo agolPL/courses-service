@@ -11,12 +11,12 @@ import static java.lang.Thread.sleep;
 @Configuration
 class TimeoutConfiguration {
 
-    private static final int WAITING_TIME_MS = 5000;
+    private static final int FIVE_SECONDS = 5000;
 
     @PostConstruct
     void waitingBeforeStart() throws InterruptedException {
-        log.info("Start waiting for : {} ms", WAITING_TIME_MS);
-        sleep(WAITING_TIME_MS);
+        log.info("Start waiting for : {} ms", FIVE_SECONDS);
+        sleep(FIVE_SECONDS);
         log.info("End waiting");
     }
 }
