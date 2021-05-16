@@ -63,7 +63,7 @@
                 <version>3.0.0</version>
                 <configuration>
                     <to>
-                        <image>andipansa/courses-service:2.0</image>
+                        <image>courses-service:2.0</image>
                     </to>
                 </configuration>
             </plugin>
